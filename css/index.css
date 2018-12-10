@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+:root {
+    font-size: 18px;  
+    font-family: 'Gamja Flower', cursive;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #266a6d;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.foo {
+    color: green;
+}
+
+#bar {
+    color: yellow;
+}
+
+div> p {
+    background-color: grey;
+}
+
+p:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+p::before {
+    content: '<';
+}
+
+p::after {
+    content: '>';
+}
+
